@@ -1,0 +1,223 @@
+*{
+	/*border: 1px green dotted;*/
+	margin: 0px;
+	padding: 0px;
+}
+/*----------------------------------------------------------------------------------------------*/
+.shadow{
+			box-shadow: 2px 2px 2px black
+		}
+/*----------------------------------------------------------------------------------------------*/
+#container{
+	width: 1200px;
+	height: 900px;
+	margin: auto;
+}
+/*----------------------------------------------------------------------------------------------*/
+.wrapper{
+	width: 970px;
+	height:900px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #2B4F76;
+}
+/*----------------------------------------------------------------------------------------------*/
+.header{
+	width: auto;
+	height: 130px;
+}
+	.python{
+		width: 300px;
+		height: auto;
+		margin-top: 20px;
+		margin-left: 20px;
+		display: inline-block;
+	}
+	.grey{
+		width: 220px;
+		height: 50px;
+		margin-left: 20px;
+		background-color: #444444;
+		border-radius: 5px;
+	}
+	#password{
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.text{
+		height: 20px;
+		width: 170px;
+		display: block;
+		line-height: -50px;
+		margin-left: 80px;
+		font-size: 12px;
+		font-family: Arial;
+	}
+	.search{
+		height: 85px;
+		width: 250px;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 20px;
+		margin-left: 360px;
+	}
+	a{
+		color: gold;
+	}
+
+/*----------------------------------------------------------------------------------------------*/
+.navbar{
+	width: 830px;
+	height: 30px;
+	margin-left: 70px;
+	background-image: linear-gradient(#4074AC,#4F7DAC,#4074AC);
+	border-radius: 5px;
+	padding-top: 8px;
+}
+	h2{
+		display: inline;
+		color: white;
+	}
+	.about{
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+	.download{
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+	.doc{
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+	.comm{
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+	.new{
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+	.even{
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+	
+/*----------------------------------------------------------------------------------------------*/
+.body1{
+	width: 970px;
+	height: 370px;
+}
+	.sidebar{
+		width: 250px;
+		min-height: 370px;
+		margin-left: 70px;
+		margin-top: 20px;
+		display: inline-block;
+		text-align: center;	
+		list-style-position: inside;
+		color: white;
+		text-decoration: underline;
+		line-height: 40px;
+	}
+	.sidebar ul li{
+		list-style: none;
+		
+	}
+	.sidebar ul li:before {
+		content: "\00BB \0020";
+		color: yellow;
+		 }
+	.text2{
+		width: 577px;
+		height: 340px;
+		margin-top: 30px;
+		margin-left: -4px;
+		display: inline-block;
+		text-align: center;
+		font-family: Arial;
+		vertical-align: top;
+	}
+		.text2 h3{
+			line-height: 35px;
+			font-style: italic;
+			color: #EDCD3A;
+			}
+		p.tx{
+			font-size: 15px;
+			color: white
+		}
+		h4{
+			line-height: 30px;
+			color: white;
+		}
+		ul.guide{
+			margin-left: 20px;
+			
+		}
+		
+/*---------------------------------------------------------------------------------------------*/
+.body2{
+	width: 970px;
+	height: 240px;
+	background-color: white;	
+}
+	.start{
+		width: 312px;
+		height: 240px;
+		margin-left: 100px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;	
+		font-family: arial;
+		font-size: 13px;
+	}
+		h3.star{
+			color: black;
+			
+
+		}
+	.start ul li{
+		line-height: 30px;
+		color: lightskyblue;
+		
+	}
+	
+	.app{
+		margin-left: 100px;
+		width: 322px;
+		height: 240px;
+		display: inline-block;
+		text-align: center;	
+		font-family: arial;
+		font-size: 13px;
+	}
+		h3.ap{
+			color: black;
+		}
+		.app ul li{
+			line-height: 20px;
+			color: lightskyblue;
+		}
+/*----------------------------------------------------------------------------------------------*/
+.footer{
+	width: 970px;
+	height: 100px;
+}
+.footer ul{
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 50px;
+	margin-left: 200px;
+}
+.footer ul li{
+	display:inline-block;
+	padding: 0px 30px;
+	color:#7CAFDD;
+}
+.footer p{
+	margin: 10px auto 0px;
+	text-align: center;
+	font-size: 11px;
+	color:#7CAFDD;
+}
